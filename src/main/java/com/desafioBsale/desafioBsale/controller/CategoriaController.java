@@ -18,7 +18,7 @@ public class CategoriaController {
     @Autowired
     CategoryServiceImpl categoryService;
 
-    @CrossOrigin(origins = "https://bsale-desafio.herokuapp.com/")
+    @CrossOrigin(origins = "https://bsale-desafio.herokuapp.com/", methods= {RequestMethod.GET})
     @RequestMapping(value = "/categories", method = RequestMethod.GET)
     public List<Category> getCategories(){
         return categoryService.readAll();
