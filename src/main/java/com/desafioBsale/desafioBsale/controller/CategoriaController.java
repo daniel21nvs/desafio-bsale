@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@CrossOrigin
+@CrossOrigin(origins = "https://bsale-desafio.herokuapp.com", maxAge = 3600)
 @RestController
 @RequestMapping("/api")
 public class CategoriaController {
