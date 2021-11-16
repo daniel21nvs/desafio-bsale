@@ -1,5 +1,5 @@
 //const API_URL ="http://localhost:8080/api";
-const API_URL ="http://bsale-desafio.herokuapp.com/api";
+const API_URL ="https://bsale-desafio.herokuapp.com/api";
 const HTMLResponse = document.querySelector("#content_prod");
 const select = document.querySelector("#categories");
 const inputSearch = document.querySelector("#search");
