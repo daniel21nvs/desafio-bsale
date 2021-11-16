@@ -1,4 +1,4 @@
-const API_URL ="http://localhost:8081/api";
+const API_URL ="http://localhost:8080/api";
 const HTMLResponse = document.querySelector("#content_prod");
 const select = document.querySelector("#categories");
 const inputSearch = document.querySelector("#search");
