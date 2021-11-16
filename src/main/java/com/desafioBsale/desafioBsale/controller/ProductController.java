@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://bsale-desafio.herokuapp.com", maxAge = 3600)
 @RestController
+@CrossOrigin(origins = "https://bsale-desafio.herokuapp.com/", methods= {RequestMethod.GET})
 @RequestMapping("/api")
 public class ProductController {
 
