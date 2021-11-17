@@ -7,9 +7,9 @@ const inputSearch = document.querySelector("#search");
 getAllCategories();
 getProducts(`${API_URL}/products`);
 
-inputSearch.addEventListener('keyup', function(e) {
+inputSearch.addEventListener('keyup', function onEvent(e) {
   var keycode = e.keyCode || e.which;
-  if (keycode == 13) {
+  if (keycode === 13) {
     searchByName();
   }
 });
