@@ -7,6 +7,13 @@ const inputSearch = document.querySelector("#search");
 getAllCategories();
 getProducts(`${API_URL}/products`);
 
+inputSearch.addEventListener('keyup', function(e) {
+  var keycode = e.keyCode || e.which;
+  if (keycode == 13) {
+    searchByName();
+  }
+});
+
 //buscar por nombre
 function searchByName(){
     let searchName = inputSearch.value;
