@@ -52,6 +52,9 @@ No recibe parámetros, retorna un listado de objetos de tipo Category de todas l
 - Un buscador acompañando de un botón para ejecutar la búsqueda de productos por nombre.
 - Un campo de selección para filtrar los productos por categoría
 
-Link ejercicio: https://bsale-desafio.herokuapp.com/
-Link GitHub: https://github.com/daniel21nvs/desafio-bsale
+Link ejercicio (Frontend): https://desafiobsale.web.app/
+Backend (API): https://bsale-desafio.herokuapp.com/
+Link GitHub:
+- (Backend): https://github.com/daniel21nvs/desafio-bsale
+- (Frontend): https://github.com/daniel21nvs/desafiobsale_front
 
