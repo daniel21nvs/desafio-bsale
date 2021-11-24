@@ -7,8 +7,6 @@
 - Spring boot para la creación de la API REST (Backend)
 - Lenguaje de programación Java (Backend)
 - JPA para la interacción con la base de datos
-- HTML5, CSS y Javascript (Frontend)
-
 
 ### API REST
 
@@ -45,16 +43,9 @@ Recibe un nombre (String) como parámetro, retorna un listado de objetos de tipo
 - https://bsale-desafio.herokuapp.com/api/categories
 No recibe parámetros, retorna un listado de objetos de tipo Category de todas las categorías existentes.
 
-### FrontEnd
-
-##### Se crea una vista, la cual se compone de:
-
-- Un buscador acompañando de un botón para ejecutar la búsqueda de productos por nombre.
-- Un campo de selección para filtrar los productos por categoría
-
 Link ejercicio (Frontend): https://desafiobsale.web.app/
 Backend (API): https://bsale-desafio.herokuapp.com/
-Link GitHub:
+##### Link GitHub:
 - (Backend): https://github.com/daniel21nvs/desafio-bsale
 - (Frontend): https://github.com/daniel21nvs/desafiobsale_front
 
