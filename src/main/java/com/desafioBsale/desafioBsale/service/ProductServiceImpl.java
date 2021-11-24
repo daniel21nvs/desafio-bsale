@@ -15,16 +15,25 @@ public class ProductServiceImpl implements IProductService{
     IProductRepo productRepo;
 
     @Override
+    /**
+     * retorna una lista con todos los productos
+     */
     public List<Product> readAll() {
         return productRepo.findAll();
     }
 
     @Override
+    /**
+     * retorna una lista de productos filtrados por una categoría (id)
+     */
     public List<Product> readAllByCategory(int id) {
         return productRepo.findByCategory_Id(id);
     }
 
     @Override
+    /**
+     * retorna una lista de productos filtrados por nombre
+     */
     public List<Product> readByName(String name) {
         return productRepo.findByNameContaining(name);
     }

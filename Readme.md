@@ -21,9 +21,19 @@
 
 ##### Contiene 3 métodos:
 
-- getProdcuts(): no recibe parámetros, obtiene todos los productos, retorna una lista de tipo Products.
+- getProducts(): no recibe parámetros, obtiene todos los productos, retorna una lista de tipo Products.
 - getProductsByCategory(): recibe como parametro el id de la categoría, obtiene todos los productos de una categoría, retorna lista de tipo Products.
 - getProductsByName(): recibe como parametro el nombre del producto, obtiene todos los productos que contengan una palabra en su nombre, ejemplo "papas", retorna lista de tipo Products.
+
+#### Endpoints Product
+- https://bsale-desafio.herokuapp.com/api/products
+No recibe parámetros, retorna un listado de objetos de tipo Product de todos los productos existentes.
+
+- https://bsale-desafio.herokuapp.com/api/products{id}
+Recibe el id (int) de la categoría como parámetro, retorna un listado de objetos de tipo Product con todos los productos filtrados por el id de la categoría indicada.
+
+- https://bsale-desafio.herokuapp.com/api/products{name}
+Recibe un nombre (String) como parámetro, retorna un listado de objetos de tipo Product con todos los productos cuyo nombre contenga el texto indicado en el parámetro 
 
 #### Clase CategoriaController
 
@@ -31,6 +41,9 @@
 
 - getCategories(), obtiene todas las categorias, retorna una lista de tipo Gategory
 
+#### Endpoints Category
+- https://bsale-desafio.herokuapp.com/api/categories
+No recibe parámetros, retorna un listado de objetos de tipo Category de todas las categorías existentes.
 
 ### FrontEnd
 

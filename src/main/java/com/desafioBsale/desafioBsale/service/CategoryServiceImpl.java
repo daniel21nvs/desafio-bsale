@@ -14,11 +14,17 @@ public class CategoryServiceImpl implements ICategoryService {
     ICategoryRepo categoryRepo;
 
     @Override
+    /**
+     * retorna una lista con todas las categorias
+     */
     public List<Category> readAll() {
         return categoryRepo.findAll();
     }
 
     @Override
+    /**
+     * retorna un objeto de tipo categoria por su id
+     */
     public Category readOne(int id) {
         return categoryRepo.findById(id).get();
     }
