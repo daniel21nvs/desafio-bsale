@@ -14,7 +14,7 @@ import java.util.List;
  *  a pesar de tener un origen distinto, evitando problemas de cors
  */
 @RestController
-@CrossOrigin(origins = "https://desafiobsale.web.app//", methods= {RequestMethod.GET})
+@CrossOrigin(origins = "https://desafiobsale.web.app/", methods= {RequestMethod.GET})
 @RequestMapping("/api")
 public class CategoriaController {
 
